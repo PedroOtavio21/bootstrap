@@ -1,0 +1,30 @@
+{
+  "name": "03-instalacao-e-uso-basico",
+  "version": "1.0.0",
+  "description": "Primeiro, vamos conhecer como instalar e usar o Bootstrap via CDN. Essa é a forma mais fácil, porém **mais limitada** para se trabalhar com o Bootstrap, pois apenas incluimos os arquivos completos de CSS e JS, **sem possibilidade de modularização** e qualquer customização deve ser feita **sobrescevendo os estilos padrão**, o que é **ineficiente**.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack build --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
+  }
+}
